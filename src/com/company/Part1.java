@@ -21,7 +21,6 @@ public class Part1 {
 
         comparition1 = S1 == P1;
         comparition2 = S2 == P2;
-
     }
     public void printInfo() {
         System.out.println("Square 1 = " + S1);
@@ -31,6 +30,5 @@ public class Part1 {
         System.out.println(phrase + " " + comparition1);
         System.out.println(phrase + " " + comparition2);
     }
-    public void compare1() {comparition1 = S1 == P1;}
-    public void compare2() {comparition2 = S2 == P2;}
+    public void compare() {comparition1 = S1 == P1;comparition2 = S2 == P2;}
 }

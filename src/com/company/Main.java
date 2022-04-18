@@ -8,8 +8,7 @@ public class Main {
         part1.x2 = 4;
         part1.phrase = "Периметр равен площади:";
         part1.dataResults();
-        part1.compare1();
-        part1.compare2();
+        part1.compare();
         part1.printInfo();
 
         Part2 part2 = new Part2();
