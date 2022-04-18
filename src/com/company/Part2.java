@@ -1,7 +1,6 @@
 package com.company;
 
-public class Part2
-{
+public class Part2 {
     byte b;
     short s1;
     int i1;
@@ -14,7 +13,6 @@ public class Part2
     char c;
     int i3;
 
-
     public void transform() {
     s1 = b;
     i1 = s1;
@@ -26,8 +24,8 @@ public class Part2
     d2 = f;
 
     i3 = c;
-
     }
+
 public void printInfo(){
     System.out.println("Byte: " + b);
     System.out.println("Short1: " + s1);
@@ -40,5 +38,5 @@ public void printInfo(){
     System.out.println("Double2:" + d2);
     System.out.println("Char:" + c);
     System.out.println("Integer3: "+ i3);
-}
+    }
 }

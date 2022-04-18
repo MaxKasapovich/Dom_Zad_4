@@ -28,7 +28,6 @@ public class Main {
         part4.bmax = 127;
         part4.increment();
         part4.printInfo();
-
     }
 }
 
